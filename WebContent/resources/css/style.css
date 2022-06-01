@@ -1,0 +1,43 @@
+
+.header .logo i {
+  color: #bac34e;
+  padding-right: .5rem;
+}
+body {
+    background-color: rgb(192, 192, 192)
+}
+
+#b1{
+    color: black;
+    text-align: left;
+     background-color: gray;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    font-color: Red;
+}
+
+.btn  {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

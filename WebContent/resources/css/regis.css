@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body {
+    background-image: url("${pageContext.request.contextPath}/resources/images/bg1.jpg");
+ 
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: large;
+   
+    background-attachment: fixed;
+    font-family: sans-serif;
+    
+}
+
+.bg{
+    background-image: url(../img/food.png);
+}
+
+input[type="text"],
+input[type="email"],input[type="number"],
+input[type="password"],#add {
+    border: 2px solid #a6db34;
+    padding: 20px 05px;
+    height: 20px;
+    width: 70%;
+    background: none;
+    text-align: center;
+    transition: 0.25s;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+    background-color: none;
+    outline: none; 
+    border-radius: 10px;
+    
+
+    
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+#add:focus
+ {
+    width: 80%;
+    border-color: green;
+
+
+}
+
+input[type="submit"],
+input[type="reset"] {
+    border: 2px solid ;
+    padding: 10px 05px;
+    width: 30%;
+    text-align: center;
+    transition: 0.35s;
+    color: white;
+    font-weight: bold ;
+    font-size: large;
+    background-color:rgb(112, 188, 25);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background-color: rgb(3, 3, 3);
+    border-color: rgb(2, 2, 2);
+    
+}
+
+
+
+
+#fst_cont{
+    
+    background-image: url(../img/7.jpg);
+    background-position: center;
+    
+}
+#fst_cont a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#fst_cont a:hover{
+    color: rgb(125, 23, 16);
+}
+
+.box{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgb(8, 8, 8);
+    transition: 0.3s;
+
+   
+}
+.box:hover{
+    box-shadow: 0 8px 32px 0 rgb(43, 177, 22);
+}
